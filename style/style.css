@@ -84,6 +84,10 @@ html {
 
 }
 
+header.container-fluid {
+  width: 90%;
+}
+
 .left-right-container {
   padding: 0 10px;
   background-color: #f72210;
@@ -117,6 +121,9 @@ html {
 
 .right-header {
   text-align: end;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
 .left-header,
