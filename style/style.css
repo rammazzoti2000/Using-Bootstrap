@@ -119,8 +119,12 @@ header.container-fluid {
 .right-header {
   text-align: end;
   display: flex;
-  flex-direction: row;
+  flex-flow: row nowrap;
   justify-content: flex-end;
+}
+
+div.right-header.col-md-3 {
+  padding-right: 0;
 }
 
 .left-header,
@@ -128,6 +132,30 @@ header.container-fluid {
   display: flex;
   align-items: flex-end;
   padding-bottom: 21px;
+}
+
+.right-header a:first-child {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin: 0 8px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.right-header a:last-child {
+  display: inline-flex;
+  background: white;
+  color: red;
+  width: 135px;
+  height: 26px;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .header-bottom::before {
@@ -138,4 +166,91 @@ header.container-fluid {
   border-left: 12px solid white;
   border-top: 13px solid #f72210;
   margin-right: -15px;
+}
+
+form {
+  float: right;
+  display: flex;
+  flex-flow: row-reverse nowrap;
+  align-items: center;
+}
+ul}
+
+label {
+  background: url('https://g.newsweek.com/www/images/icon-search-glass.svg') center no-repeat;
+  width: 20px;
+  height: 20px;
+  clip: auto;
+  font-size: 0;
+  position: absolute
+}
+
+input[type=text] {
+  width: 54px;
+  border-style: none;
+  display:block;
+  margin: 0 0 0 auto;
+  box-sizing: border-box;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  height: 0;
+}
+
+input[type=text]:focus {
+  outline: none;
+  width: 600%;
+}
+
+.list-inline {
+  line-height: 4;
+}
+
+.list-inline > li {
+  padding-left: 0;
+  padding-right: 0;
+  margin: 0;
+  line-height: 2;
+  margin: 0;
+  padding: 0;
+  border-left: 1px solid lightgray;
+  line-height: 1.4;
+}
+
+.list-inline > li:first-child,
+.list-inline > li:last-child {
+  border-left: none;
+}
+
+.list-inline li a {
+  font-size: 2rem;
+  color: black;
+  text-decoration: none;
+  font-weight: 900;  
+}
+
+.list-inline li a:hover {
+  color: #f72210;
+}
+
+main {
+  padding-top: 30px;
+  border-top: 2px solid lightgray;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: -1px;
+  background: white;
+  height: 21px;
+  width: 66px;
+  text-align: center;
+  color: red;
+  opacity: 0.7;
+  font-weight: 900;
+}
+
+.col1 {
+  width: 25%;
 }
