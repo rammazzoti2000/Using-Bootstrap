@@ -80,13 +80,11 @@ select {
 /* Style CSS customize start */
 html {
   font-size: 65%;
-  font-family: "Roboto Condensed", sans-serif;  
-
+  font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
 }
 
 header.container-fluid {
   width: 96.9%;
-  font-family: "Roboto Condensed", sans-serif;
   font-size: 1.6rem;
 }
 
@@ -290,17 +288,24 @@ section.container-fluid {
   min-width: 135px;
 }
 
+.more-stories-container .card-body,
 .opinion-container .card-body,
 .latest-container .card-body {
   padding-left: 15px;
 }
 
+.more-stories-cards .card,
 .opinion-cards .card,
 .latest-cards .card {
   border: none;
 }
 
+.mores-stories div.row,
 .opinion-latest div.row {
   margin-left: 0;
   padding-left: 0;
+}
+
+.more-stories-cards div.row {
+  margin: 0;
 }
