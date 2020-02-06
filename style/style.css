@@ -174,7 +174,6 @@ form {
   flex-flow: row-reverse nowrap;
   align-items: center;
 }
-ul}
 
 label {
   background: url('https://g.newsweek.com/www/images/icon-search-glass.svg') center no-repeat;
@@ -236,7 +235,11 @@ input[type=text]:focus {
 
 main {
   padding-top: 30px;
-  border-top: 2px solid lightgray;
+  border-top: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+main.container-fluid {
+  width: 96.9%;
 }
 
 .bottom-left {
@@ -253,4 +256,35 @@ main {
 
 .col1 {
   width: 25%;
+}
+
+div.thumbnail {
+  border: 0 none;
+  box-shadow: none;
+}
+
+h5.card-title {
+  margin-top: 0;
+}
+
+div.opinion-cards {
+  border-bottom: 1px solid #ddd;
+}
+
+div.opinion-cards img {
+  min-width: 63px;
+  max-width: 63px;
+  height: auto;
+}
+
+div.card-body {
+  padding: 0;
+}
+
+section.container-fluid {
+  padding: 0;
+}
+
+div.col-sm-2 {
+  flex: 0 0 9.667%;
 }
