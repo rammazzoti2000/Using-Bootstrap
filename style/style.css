@@ -207,14 +207,10 @@ input[type=text]:focus {
 }
 
 .list-inline > li {
-  padding-left: 0;
-  padding-right: 0;
-  margin: 0;
   line-height: 2;
   margin: 0;
   padding: 0;
   border-left: 1px solid lightgray;
-  line-height: 1.4;
 }
 
 .list-inline > li:first-child,
@@ -274,7 +270,6 @@ div.opinion-cards {
 div.opinion-cards img {
   min-width: 63px;
   max-width: 63px;
-  height: auto;
 }
 
 div.card-body {
@@ -285,6 +280,27 @@ section.container-fluid {
   padding: 0;
 }
 
-div.col-sm-2 {
-  flex: 0 0 9.667%;
+.opinion-container,
+.latest-container {
+  padding-left: 15px;
+}
+
+.latest-cards img {
+  max-width: 135px;
+  min-width: 135px;
+}
+
+.opinion-container .card-body,
+.latest-container .card-body {
+  padding-left: 15px;
+}
+
+.opinion-cards .card,
+.latest-cards .card {
+  border: none;
+}
+
+.opinion-latest div.row {
+  margin-left: 0;
+  padding-left: 0;
 }
