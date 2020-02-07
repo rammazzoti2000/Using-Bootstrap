@@ -179,29 +179,7 @@ label {
   height: 20px;
   clip: auto;
   font-size: 0;
-  position: absolute
-}
-
-input[type=text] {
-  width: 54px;
-  border-style: none;
-  display:block;
-  margin: 0 0 0 auto;
-  box-sizing: border-box;
-  font-size: 16px;
-  padding: 12px 20px 12px 40px;
-  -webkit-transition: width 0.4s ease-in-out;
-  transition: width 0.4s ease-in-out;
-  height: 0;
-}
-
-input[type=text]:focus {
-  outline: none;
-  width: 600%;
-}
-
-.list-inline {
-  line-height: 4;
+  position: absolute;
 }
 
 .list-inline > li {
@@ -220,7 +198,7 @@ input[type=text]:focus {
   font-size: 2rem;
   color: black;
   text-decoration: none;
-  font-weight: 900;  
+  font-weight: 900;
 }
 
 .list-inline li a:hover {
@@ -259,10 +237,6 @@ div.thumbnail {
 
 h5.card-title {
   margin-top: 0;
-}
-
-div.opinion-cards {
-  border-bottom: 1px solid #ddd;
 }
 
 div.opinion-cards img {
