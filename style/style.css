@@ -238,14 +238,14 @@ main.container-fluid {
 
 .bottom-left {
   position: absolute;
-  bottom: -1px;
+  bottom: 0;
   background: white;
-  height: 21px;
-  width: 66px;
   text-align: center;
   color: red;
   opacity: 0.7;
   font-weight: 900;
+  padding: 3px 8px;
+  font-size: 1.4rem;
 }
 
 .col1 {
@@ -310,22 +310,21 @@ section.container-fluid {
   margin: 0;
 }
 
-/*MAGAZINE*/
-/*magazine cover*/
-.magazine-cover{
+/* MAGAZINE */
+.magazine-cover {
   margin-top: 50px;
 }
 
-.magazine-cover .img-wrapper{
+.magazine-cover .img-wrapper {
   position: relative;
 }
 
-.magazine-cover .img-wrapper img{
+.magazine-cover .img-wrapper img {
   width: 100%;
   cursor: pointer;
 }
 
-.magazine-cover .img-wrapper .category{
+.magazine-cover .img-wrapper .category {
   position: absolute;
   bottom: 0;
   color: red;
@@ -387,9 +386,9 @@ section.container-fluid {
   text-transform: uppercase;
   color: white;
   background: red;
-  font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
-  padding:5px 5px;
+  padding: 5px 5px;
+  font-size: 1.4rem;
 }
 
 .magazine .row .more .row .item .category-2,
@@ -398,7 +397,7 @@ section.container-fluid {
   margin-left: 10px;
   color: red;
   font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.4rem;
   cursor: pointer;
 }
 
