@@ -309,3 +309,123 @@ section.container-fluid {
 .more-stories-cards div.row {
   margin: 0;
 }
+
+/*MAGAZINE*/
+/*magazine cover*/
+.magazine-cover{
+  margin-top: 50px;
+}
+
+.magazine-cover .img-wrapper{
+  position: relative;
+}
+
+.magazine-cover .img-wrapper img{
+  width: 100%;
+  cursor: pointer;
+}
+
+.magazine-cover .img-wrapper .category{
+  position: absolute;
+  bottom: 0;
+  color: red;
+  background: rgba(255, 255, 255, 0.7);
+  font-weight: bold;
+  padding: 3px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.magazine-cover span {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  padding: 5px 0;
+  color: black;
+  font-weight: bold;
+  background: #e6e1e1;
+  cursor: pointer;
+}
+
+.magazine-cover span:hover {
+  background: #a0a0a0;
+}
+
+/* magazine section header */
+.section-header .section-heading {
+  margin-top: 30px;
+  border-bottom: 1px solid #d9d9d9;
+  padding: 8px 0;
+}
+
+.section-header .section-heading img {
+  margin-right: 8px;
+}
+
+.section-header .section-heading span {
+  color: black;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.more .item,
+.magazine .row .row-bottom {
+  margin-top: 15px;
+}  
+
+.more .item img,
+.magazine .row .row-bottom .item img {
+  width: 100%;
+  margin-bottom: 10px;
+  cursor: pointer;
+  height: 250px;
+}
+
+.magazine .row .more .row .item .category-1,
+.magazine .row .row-bottom .item .category-1 {
+  text-transform: uppercase;
+  color: white;
+  background: red;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding:5px 5px;
+}
+
+.magazine .row .more .row .item .category-2,
+.magazine .row .row-bottom .item .category-2 {
+  text-transform: uppercase;
+  margin-left: 10px;
+  color: red;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+
+.magazine .row .more .row .item p,
+.magazine .row .row-bottom .item p {
+  color: black;
+  text-transform: capitalize;
+  font-weight: bold;
+  cursor: pointer;
+  padding-top: 5px;
+}
+
+.magazine .row .more .row .item p:hover,
+.magazine .row .row-bottom .item p:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.row-bottom span.focus {
+  top: auto;
+  bottom: 0;
+  left: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .row-top img,
+  .row-bottom img {
+    height: auto !important;
+  }
+}
