@@ -78,9 +78,13 @@ select {
 }
 
 /* Style CSS customize start */
-html {
+html {  
   font-size: 65%;
   font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+.body {
 }
 
 header.container-fluid {
@@ -394,6 +398,15 @@ section.container-fluid {
   top: auto;
   bottom: 0;
   left: 0;
+}
+
+.position-type {
+  position: sticky;
+  top: 0;
+}
+
+.culture-more > section.container-fluid {
+  background-color: #f4f5f7;
 }
 
 @media only screen and (max-width: 768px) {
