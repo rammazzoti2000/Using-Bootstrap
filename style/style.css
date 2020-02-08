@@ -369,10 +369,21 @@ section.container-fluid {
   padding-top: 5px;
 }
 
-.magazine .row .more .row .item p:hover,
+.row-top p:hover,
 .magazine .row .row-bottom .item p:hover {
-  text-decoration: underline;
-  text-decoration-color: red;
+  text-decoration: none;
+  border-bottom: 1px solid red;
+  padding-bottom: 1px;
+}
+
+.magazine-section h3 a {
+  color: black;
+}
+
+.magazine-section h3 a:hover {
+  text-decoration: none;
+  border-bottom: 1px solid red;
+  padding-bottom: 1px;
 }
 
 .row-bottom span.focus {
@@ -486,6 +497,10 @@ section.container-fluid {
   margin: 25px auto;
 }
 
+.newsletter p {
+  cursor: pointer;
+}
+
 .newsletter h4 span {
   font-size: 1.8rem;
   color: #333;
@@ -495,6 +510,86 @@ section.container-fluid {
 
 .sign-up {
   font-size: 1.7rem;
+  cursor: pointer;
+}
+
+.sign-up:hover {
+  background-color: #999 !important;
+}
+
+.editor-pick h4 a {
+  text-decoration: none;
+}
+
+.global > h2 a,
+.global > h2 a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+h3.global-title a {
+  color: black;
+}
+
+h3.global-title a:hover {
+  text-decoration: none;
+  border-bottom: 1px solid red;
+  padding-bottom: 1px;
+}
+
+.more-cards div a {
+  font-weight: bold;
+}
+
+.more-cards div a:hover {
+  text-decoration: none;
+  color: red !important;
+}
+
+.featured-slides article h3 a {
+  color: black;
+  text-decoration: none;
+}
+
+.featured-slides article h3 a:hover {
+  text-decoration: none;
+  border-bottom: 1px solid red;
+  padding-bottom: 1px;
+}
+
+.featured-slides h4 a {
+  text-decoration: none;
+}
+
+.featured span img {
+  border-bottom: 3px solid red;
+  border-right: 3px solid red;
+  padding: 0 1px 1px 0;
+}
+
+.cat-slide {
+  background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0%/100% no-repeat !important;
+}
+
+.cat-slide a {
+  right: 30%;
+  bottom: 23%;
+  text-decoration: none;
+  color: red;
+}
+
+.cat-slide a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+.category {
+  font: bold 17px/16px "Roboto Condensed", sans-serif;
+  color: #f72210;
+  background-color: rgba(255, 255, 255, 0.9);
+  bottom: 0;
+  left: 0;
+  z-index: 1;
 }
 
 @media only screen and (min-width: 992px) {
