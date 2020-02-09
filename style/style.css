@@ -9,6 +9,7 @@
 ul[class],
 ol[class] {
   padding: 0;
+  list-style: none;
 }
 
 /* Remove default margin */
@@ -35,17 +36,6 @@ body {
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-}
-
-/* Remove list styles on ul, ol elements with a class attribute */
-ul[class],
-ol[class] {
-  list-style: none;
-}
-
-/* A elements that don't have a class get default styles */
-a:not([class]) {
-  text-decoration-skip-ink: auto;
 }
 
 /* Make images easier to work with */
@@ -104,6 +94,92 @@ header {
   text-decoration: none;
 }
 
+.etiquette a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.3rem;
+}
+
+.cat-slide a {
+  right: 30%;
+  bottom: 23%;
+  text-decoration: none;
+  color: red;
+}
+
+.footer-links a {
+  color: #666;
+}
+
+.news-navbar li a {
+  font-size: 1.7rem;
+  color: black;
+  text-decoration: none;
+  font-weight: 800;
+}
+
+.magazine-section h3 a {
+  color: black;
+}
+
+.main-header-container h3 > a,
+.main-header-container h5 > a {
+  color: black;
+  text-decoration: none;
+  line-height: 1.3;
+}
+
+.featured-stories-container h3 > a {
+  color: black;
+  text-decoration: none;
+  line-height: 1.3;
+}
+
+.more h4 a {
+  color: black;
+  text-decoration: none;
+  line-height: 1.3;
+}
+
+.editor-pick h4 a {
+  text-decoration: none;
+}
+
+.global > h2 a {
+  color: red;
+  text-decoration: none;
+}
+
+h3.global-title a {
+  color: black;
+}
+
+.more-cards div a {
+  font-weight: bold;
+}
+
+.featured-slides h4 a {
+  text-decoration: none;
+}
+
+.sub-news h2 a {
+  color: red;
+  text-decoration: none;
+}
+
+.menu li a {
+  color: #666;
+  text-decoration: none;
+  border-right: 1px solid #d9d9d9;
+  padding-right: 10px;
+  margin-right: 10px;
+}
+
+.featured-slides article h3 a {
+  color: black;
+  text-decoration: none;
+}
+
 .left-right-container a:hover {
   color: white;
   text-decoration: none;
@@ -138,15 +214,28 @@ nav {
   background-color: white;
 }
 
-.news-navbar li a {
-  font-size: 1.7rem;
-  color: black;
+.etiquette a:hover {
+  color: #c2d4d7;
   text-decoration: none;
-  font-weight: 800;
+}
+
+.cat-slide a:hover {
+  color: red;
+  text-decoration: none;
 }
 
 .news-navbar li a:hover {
   color: red;
+}
+
+.social li {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.menu li {
+  display: inline-block;
+  margin: 6px 0;
 }
 
 .header-nav .news-navbar li {
@@ -194,6 +283,23 @@ h5.card-title {
   margin-top: 0;
 }
 
+footer img {
+  object-fit: contain;
+  object-position: -7px 5px;
+}
+
+.latest-cards img {
+  max-width: 135px;
+  min-width: 135px;
+}
+
+.middle-header img {
+  object-position: 0 0;
+  width: 100%;
+  height: 70px;
+  margin: 0;
+}
+
 div.opinion-cards img {
   min-width: 63px;
   max-width: 63px;
@@ -210,11 +316,6 @@ section.container-fluid {
 .opinion-container,
 .latest-container {
   padding-left: 15px;
-}
-
-.latest-cards img {
-  max-width: 135px;
-  min-width: 135px;
 }
 
 .more-stories-container .card-body,
@@ -248,9 +349,24 @@ section.container-fluid {
   position: relative;
 }
 
+.featured span img {
+  border-bottom: 3px solid red;
+  border-right: 3px solid red;
+  padding: 0 1px 1px 0;
+}
+
 .magazine-cover .img-wrapper img {
   width: 100%;
   cursor: pointer;
+}
+
+.category {
+  font: bold 17px/16px "Roboto Condensed", sans-serif;
+  color: #f72210;
+  background-color: rgba(255, 255, 255, 0.9);
+  bottom: 0;
+  left: 0;
+  z-index: 1;
 }
 
 .magazine-cover .img-wrapper .category {
@@ -274,6 +390,18 @@ section.container-fluid {
   cursor: pointer;
   font-size: 1.6rem;
   white-space: nowrap;
+}
+
+.opinion-cards span {
+  font-size: 1.3rem;
+  line-height: 1;
+}
+
+.newsletter h4 span {
+  font-size: 1.8rem;
+  color: #333;
+  cursor: text;
+  line-height: 1;
 }
 
 .magazine-cover span:hover {
@@ -302,8 +430,8 @@ section.container-fluid {
   width: 100%;
 }
 
-.magazine .row .more .row .item .category-1,
-.magazine .row .row-bottom .item .category-1 {
+.magazine .row .row-bottom .item .category-1,
+.magazine .row .more .row .item .category-1 {
   text-transform: uppercase;
   color: white;
   background: red;
@@ -312,8 +440,8 @@ section.container-fluid {
   font-size: 1.4rem;
 }
 
-.magazine .row .more .row .item .category-2,
-.magazine .row .row-bottom .item .category-2 {
+.magazine .row .row-bottom .item .category-2,
+.magazine .row .more .row .item .category-2 {
   text-transform: uppercase;
   margin-left: 10px;
   color: red;
@@ -322,7 +450,35 @@ section.container-fluid {
   cursor: pointer;
 }
 
-.magazine .row .more .row .item p,
+.main-header-container p {
+  font-size: 1.4rem;
+  color: #333;
+}
+
+.featured-stories-container p {
+  font-size: 1.4rem;
+  color: #333;
+}
+
+.newsletter p {
+  cursor: pointer;
+}
+
+.sub-news-text p {
+  font: 300 1.5rem/2.1rem "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.sub-section-text p {
+  font: 300 15px/21px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-bottom: 25px;
+}
+
+.row-top p:hover {
+  text-decoration: none;
+  border-bottom: 1px solid red;
+  padding-bottom: 1px;
+}
+
 .magazine .row .row-bottom .item p {
   color: black;
   text-transform: capitalize;
@@ -331,15 +487,18 @@ section.container-fluid {
   padding-top: 5px;
 }
 
-.row-top p:hover,
 .magazine .row .row-bottom .item p:hover {
   text-decoration: none;
   border-bottom: 1px solid red;
   padding-bottom: 1px;
 }
 
-.magazine-section h3 a {
+.magazine .row .more .row .item p {
   color: black;
+  text-transform: capitalize;
+  font-weight: bold;
+  cursor: pointer;
+  padding-top: 5px;
 }
 
 .magazine-section h3 a:hover {
@@ -369,46 +528,12 @@ section.container-fluid {
   background-color: #c2d4d7;
 }
 
-.etiquette a {
-  text-decoration: none;
-  color: black;
-  font-size: 1.3rem;
-}
-
-.etiquette a:hover {
-  color: #c2d4d7;
-  text-decoration: none;
-}
-
 .etiquette:hover {
   background-color: #272727;
 }
 
-.culture-more  h4 {
+.culture-more h4 {
   cursor: pointer;
-}
-
-.main-header-container p {
-  font-size: 1.4rem;
-  color: #333;
-}
-
-.main-header-container h3 > a,
-.main-header-container h5 > a {
-  color: black;
-  text-decoration: none;
-  line-height: 1.3;
-}
-
-.featured-stories-container h3 > a {
-  color: black;
-  text-decoration: none;
-  line-height: 1.3;
-}
-
-.featured-stories-container p {
-  font-size: 1.4rem;
-  color: #333;
 }
 
 .featured-stories-container h3 > a:hover {
@@ -420,12 +545,6 @@ section.container-fluid {
 .top-stories .top-heading-3:hover {
   border-bottom: 1px solid red;
   padding-bottom: 1px;
-}
-
-.more h4 a {
-  color: black;
-  text-decoration: none;
-  line-height: 1.3;
 }
 
 .more h4 a:hover {
@@ -449,32 +568,9 @@ section.container-fluid {
   color: red;
 }
 
-.opinion-cards span {
-  font-size: 1.3rem;
-  line-height: 1;
-}
-
 .newsletter {
   width: 346px;
   margin: 25px auto;
-}
-
-.newsletter p {
-  cursor: pointer;
-}
-
-.middle-header img {
-  object-position: 0px 0;
-  width: 100%;
-  height: 70px;
-  margin: 0;
-}
-
-.newsletter h4 span {
-  font-size: 1.8rem;
-  color: #333;
-  cursor: text;
-  line-height: 1;
 }
 
 .sign-up {
@@ -486,18 +582,9 @@ section.container-fluid {
   background-color: #999 !important;
 }
 
-.editor-pick h4 a {
-  text-decoration: none;
-}
-
-.global > h2 a,
 .global > h2 a:hover {
   color: red;
   text-decoration: none;
-}
-
-h3.global-title a {
-  color: black;
 }
 
 h3.global-title a:hover {
@@ -506,19 +593,15 @@ h3.global-title a:hover {
   padding-bottom: 1px;
 }
 
-.more-cards div a {
-  font-weight: bold;
-}
-
 .more-cards div a:hover {
   text-decoration: none;
   color: red !important;
 }
 
-.featured-slides article h3 a {
-  color: black;
-  text-decoration: none;
+.menu li a:hover {
+  color: #333;
 }
+
 
 .featured-slides article h3 a:hover {
   text-decoration: none;
@@ -526,39 +609,8 @@ h3.global-title a:hover {
   padding-bottom: 1px;
 }
 
-.featured-slides h4 a {
-  text-decoration: none;
-}
-
-.featured span img {
-  border-bottom: 3px solid red;
-  border-right: 3px solid red;
-  padding: 0 1px 1px 0;
-}
-
 .cat-slide {
   background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0%/100% no-repeat !important;
-}
-
-.cat-slide a {
-  right: 30%;
-  bottom: 23%;
-  text-decoration: none;
-  color: red;
-}
-
-.cat-slide a:hover {
-  color: red;
-  text-decoration: none;
-}
-
-.category {
-  font: bold 17px/16px "Roboto Condensed", sans-serif;
-  color: #f72210;
-  background-color: rgba(255, 255, 255, 0.9);
-  bottom: 0;
-  left: 0;
-  z-index: 1;
 }
 
 .subscribe-footer .sub-container {
@@ -581,9 +633,6 @@ h3.global-title a:hover {
   top: 13px;
 }
 
-.news-section > div.d-flex {
-}
-
 .sub-news-text {
   padding: 30px;
 }
@@ -592,10 +641,6 @@ h3.global-title a:hover {
   max-width: 191px;
   background: url(../pics/footer-news-sub/starting5-homepage.png) scroll 50% 100% / cover no-repeat;
   width: 48%;
-}
-
-.sub-news-text p {
-  font: 300 1.5rem/2.1rem "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .sub-section-text h3 {
@@ -616,19 +661,26 @@ span.news-button {
   background-color: rgb(197, 7, 7);
 }
 
-.sub-section-text p {
-  font: 300 15px/21px "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin-bottom: 25px;
+.footer-links {
+  line-height: 15px;
+  font-size: 1.4rem;
 }
 
-.start-up-5 {
-  max-width: 191px;
-  width: 48%;
+.page-footer .copyright {
+  font-size: 1.2rem;
+  line-height: 12px;
 }
 
-.sub-news h2 a {
-  color: red;
-  text-decoration: none;
+.page-footer .social {
+  color: #666;
+  margin-bottom: 12px;
+}
+
+a .social-icon {
+  font-size: 26px;
+  text-align: center;
+  cursor: pointer;
+  color: #666;
 }
 
 @media only screen and (max-width: 991px) {
@@ -682,6 +734,11 @@ span.news-button {
   .start-up-5 {
     height: 298px;
   }
+
+  body {
+    width: 95%;
+    margin: 0 auto !important;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -693,12 +750,17 @@ span.news-button {
     position: absolute;
     top: -30px;
     left: 15px;
-  } 
+  }
 
   .subscribe-block .column2 .head-story-red {
     position: absolute;
     top: -30px;
     left: 15px;
+  }
+
+  footer.container-fluid {
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
 
@@ -718,7 +780,7 @@ span.news-button {
   }
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 367px) {
   .newsletter {
     width: 320px;
   }
@@ -726,8 +788,9 @@ span.news-button {
   .right-header a {
     font-size: 1rem;
   }
+
   .fa-bars {
-    font-size: 1rem;
+    font-size: 2rem;
   }
 }
 
