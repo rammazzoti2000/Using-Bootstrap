@@ -17,7 +17,7 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-![Hireable](/pics/readme/yes.svg)
+![Hireable](https://github.com/rammazzoti2000)
 
 <!-- PROJECT LOGO -->
 <br />
@@ -34,7 +34,7 @@
     <a href="https://github.com/rammazzoti2000/Using-Bootstrap/issues"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="">View Demo</a>
+    <a href="https://rawcdn.githack.com/rammazzoti2000/Using-Bootstrap/6d8a34acf2db5442b1c9b8e0798b559d1c582c06/index.html">View Demo</a>
     ·
     <a href="https://github.com/rammazzoti2000/Using-Bootstrap/issues">Report Bug</a>
     ·
@@ -56,7 +56,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](pics/readme/screenshot.png)
 
-This project is trying to replicate as much as possible the https://www.newsweek.com/ page.
+This project is trying to replicate as much as possible the [NewsWeek.com](https://www.newsweek.com/) page.
 
 Here are the objectives for this project:
 * Use as many Bootstrap classes as possible to re create this website
@@ -76,14 +76,14 @@ This project was built using these technologies.
 <!-- LIVE VERSION -->
 ## Live version
 
-You can see it here: 
+[You can see it here](https://rawcdn.githack.com/rammazzoti2000/Using-Bootstrap/6d8a34acf2db5442b1c9b8e0798b559d1c582c06/index.html)
 
 <!-- CONTACT -->
 ## Contact
 
-Alexandru Bangau - [@alex_maxinova](https://twitter.com/alex_maxinova) - [@euqueme](https://github.com/rammazzoti2000) - bangau.alexandru@gmail.com
+Alexandru Bangau - [@alex_maxinova](https://twitter.com/alex_maxinova) - [@ramamzzoti2000](https://github.com/rammazzoti2000) - bangau.alexandru@gmail.com
 
-Project Link: [)
+Project Link: [https://rawcdn.githack.com/rammazzoti2000/Using-Bootstrap/6d8a34acf2db5442b1c9b8e0798b559d1c582c06/index.html)
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
