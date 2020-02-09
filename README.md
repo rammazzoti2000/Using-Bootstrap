@@ -17,7 +17,7 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-![Hireable](/pics/readme/yes)
+![Hireable](/pics/readme/yes.svg)
 
 <!-- PROJECT LOGO -->
 <br />
@@ -81,7 +81,7 @@ This project was built using these technologies.
 <!-- CONTACT -->
 ## Contact
 
-Alexandru Bangau - [@alex_maxinova](https://twitter.com/alex_maxinova) - [@ramamzzoti2000](https://github.com/rammazzoti2000) - bangau.alexandru@gmail.com
+Alexandru Bangau - twitter: [@alex_maxinova](https://twitter.com/alex_maxinova) - github: [@ramamzzoti2000](https://github.com/rammazzoti2000) - gmail: bangau.alexandru@gmail.com
 
 Project Link: [Using BootStrap](https://rawcdn.githack.com/rammazzoti2000/Using-Bootstrap/6d8a34acf2db5442b1c9b8e0798b559d1c582c06/index.html)
 
