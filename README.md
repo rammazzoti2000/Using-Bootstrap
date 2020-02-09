@@ -6,14 +6,14 @@
 
 <!-- PROJECT LOGO -->
 <br />
-<p align="center">
+<p>
   <a href="https://github.com/rammazzoti2000/Using-Bootstrap">
     <img src="/pics/readme/microverse.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Using Bootstrap</h3>
+  <h3>Using Bootstrap</h3>
 
-  <p align="center">
+  <p>
     This project is part of the Microverse CSS3 and HTML curriculum!
     <br />
     <a href="https://github.com/rammazzoti2000/Using-Bootstrap/issues"><strong>Explore the docs »</strong></a>
