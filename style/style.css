@@ -283,11 +283,6 @@ h5.card-title {
   margin-top: 0;
 }
 
-footer img {
-  object-fit: contain;
-  object-position: -7px 5px;
-}
-
 .latest-cards img {
   max-width: 135px;
   min-width: 135px;
@@ -763,12 +758,6 @@ a .social-icon {
   }
 }
 
-@media only screen and (min-width: 768px) {
-  .start-up-5 {
-    width: 48%;
-    max-width: 191px;
-  }
-}
 
 @media only screen and (max-width: 576px) {
   div.sub-container {
@@ -804,6 +793,11 @@ a .social-icon {
   .row-top img,
   .row-bottom img {
     height: 200px !important;
+  }
+
+  .start-up-5 {
+    width: 48%;
+    max-width: 191px;
   }
 }
 
