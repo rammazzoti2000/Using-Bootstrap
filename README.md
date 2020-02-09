@@ -17,7 +17,7 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-![Hireable](https://github.com/rammazzoti2000)
+![Hireable](/pics/readme/yes)
 
 <!-- PROJECT LOGO -->
 <br />
@@ -63,7 +63,7 @@ Here are the objectives for this project:
 	* Bootstrap has classes almost for everything: background, font-weight, color, position, display, grid (rows and cols), margin padding, height etc..
 	* I had to use a few clases only for the specifics: colors, font-family and also for hovering the elements.
 
-This is also part of the Odin project curriculum https://www.theodinproject.com/courses/html5-and-css3/lessons/using-bootstrap
+This is also part of the [Odin](https://www.theodinproject.com/courses/html5-and-css3/lessons/using-bootstrap) project curriculum
 
 ### Built With
 This project was built using these technologies.
@@ -83,7 +83,7 @@ This project was built using these technologies.
 
 Alexandru Bangau - [@alex_maxinova](https://twitter.com/alex_maxinova) - [@ramamzzoti2000](https://github.com/rammazzoti2000) - bangau.alexandru@gmail.com
 
-Project Link: [https://rawcdn.githack.com/rammazzoti2000/Using-Bootstrap/6d8a34acf2db5442b1c9b8e0798b559d1c582c06/index.html)
+Project Link: [Using BootStrap](https://rawcdn.githack.com/rammazzoti2000/Using-Bootstrap/6d8a34acf2db5442b1c9b8e0798b559d1c582c06/index.html)
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
