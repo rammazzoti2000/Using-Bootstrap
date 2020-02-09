@@ -84,12 +84,11 @@ html {
   overflow-x: hidden;
 }
 
-header {
+header.container-fluid {
   font-size: 1.6rem;
   position: sticky;
   top: 0;
   z-index: 999;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
 }
 
 .left-right-container {
@@ -97,7 +96,6 @@ header {
   background-color: #f72210;
   color: white;
   text-decoration: none;
-  font-size: 1.5rem;
 }
 
 .left-right-container a {
@@ -109,20 +107,25 @@ header {
   text-decoration: none;
 }
 
+.middle-header img {
+  object-fit: cover;
+  object-position: 0 -9px;
+  width: 492px;
+  height: 96px;
+  margin: 0 auto;
+}
+
 .right-header a:first-child {
   font-size: 1.7rem;
   text-decoration: none;
 }
 
-.right-header a.top-sub-button {
+.right-header a:last-child {
   color: red;
-  padding: 2px 4px;
+  width: 135px;
+  height: 26px;
   font-size: 1.7rem;
   text-decoration: none;
-}
-
-.fa-bars {
-  display: none;
 }
 
 .header-bottom::before {
@@ -166,6 +169,7 @@ input {
 
 main {
   padding-top: 30px;
+  border-top: 2px solid rgba(0, 0, 0, 0.1);
 }
 
 main.container-fluid {
@@ -462,13 +466,6 @@ section.container-fluid {
   cursor: pointer;
 }
 
-.middle-header img {
-  object-position: 0px 0;
-  width: 100%;
-  height: 70px;
-  margin: 0;
-}
-
 .newsletter h4 span {
   font-size: 1.8rem;
   color: #333;
@@ -560,13 +557,8 @@ h3.global-title a:hover {
   z-index: 1;
 }
 
-.subscribe-footer .sub-container {
-  background-color: #f4f5f6;
-  padding: 30px;
-}
-
 .this-before {
-  padding-right: 9rem;
+  padding-right: 8rem;
 }
 
 .week-before,
@@ -580,152 +572,28 @@ h3.global-title a:hover {
   top: 13px;
 }
 
-.news-section > div.d-flex {
-}
-
-.sub-news-text {
-  padding: 30px;
-}
-
-.start-up-5 {
-  max-width: 191px;
-  background: url(../pics/footer-news-sub/starting5-homepage.png) scroll 50% 100% / cover no-repeat;
-  width: 48%;
-}
-
-.sub-news-text p {
-  font: 300 15px/21px "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
 .sub-section-text h3 {
   margin-bottom: 15px;
   line-height: 28px;
   font-weight: bold;
-  font-size: 2rem;
-}
-
-span.news-button {
-  background-color: red;
-  padding: 5px !important;
-  font-size: 1.6rem;
-  cursor: pointer;
-}
-
-.news-button:hover {
-  background-color: rgb(197, 7, 7);
-}
-
-.sub-section-text p {
-  font: 300 15px/21px "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin-bottom: 25px;
+  font-size: 1.7rem;
 }
 
 .start-up-5 {
   max-width: 191px;
   width: 48%;
-}
-
-.sub-news h2 a {
-  color: red;
-  text-decoration: none;
-}
-
-@media only screen and (max-width: 991px) {
-  .middle-header {
-    padding: 0 !important;
-  }
-
-  main.container-fluid {
-    width: 93%;
-  }
-
-  .middle-header img {
-    object-position: -15px 0;
-    width: 152px;
-    height: 37px;
-    margin: 0;
-  }
-
-  .fa-bars {
-    display: inline;
-    font-size: 3rem;
-    color: rgba(255, 255, 255, 0.7);
-    margin: 2px 17px -3px;
-  }
-
-  .header-bottom {
-    display: none;
-  }
-
-  div.left-header {
-    display: none !important;
-  }
-
-  .left-right-container {
-    justify-content: space-between;
-    align-items: center;
-    height: 57px;
-  }
-
-  div.right-header {
-    padding-bottom: 0 !important;
-  }
-
-  div.right-header a {
-    font-size: 1.5rem !important;
-  }
+  background: rgba(0, 0, 0, 0) url(../pics/footer-news-sub/starting5-homepage.png) no-repeat scroll center center / cover;
 }
 
 @media only screen and (min-width: 992px) {
-  .start-up-5 {
-    height: 298px;
-  }
-}
-
-@media screen and (min-width: 992px) {
-  .subscribe-block {
-    padding-top: 70px;
-  }
-
-  .subscribe-block .column1 .head-story-red {
-    position: absolute;
-    top: -30px;
-    left: 15px;
-  } 
-
-  .subscribe-block .column2 .head-story-red {
-    position: absolute;
-    top: -30px;
-    left: 15px;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  .start-up-5 {
-    width: 48%;
-    max-width: 191px;
-  }
-}
-
-@media only screen and (max-width: 576px) {
-  div.sub-container {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
+  .newsletter {
+    width: 320px;
   }
 }
 
 @media only screen and (max-width: 360px) {
   .newsletter {
     width: 320px;
-  }
-
-  .right-header a {
-    font-size: 1rem;
-  }
-  .fa-bars {
-    font-size: 1rem;
   }
 }
 
