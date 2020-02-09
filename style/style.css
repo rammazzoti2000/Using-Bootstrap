@@ -195,12 +195,10 @@ nav {
 }
 
 .social li {
-  display: inline-block;
   vertical-align: top;
 }
 
 .menu li {
-  display: inline-block;
   margin: 6px 0;
 }
 
