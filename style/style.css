@@ -78,15 +78,17 @@ select {
 }
 
 /* Style CSS customize start */
-html {  
+html {
   font-size: 65%;
   font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
   overflow-x: hidden;
 }
 
 header.container-fluid {
-  width: 96.9%;
   font-size: 1.6rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
 }
 
 .left-right-container {
@@ -98,7 +100,6 @@ header.container-fluid {
 
 .left-right-container a {
   text-decoration: none;
-  color: white;
 }
 
 .left-right-container a:hover {
@@ -114,46 +115,17 @@ header.container-fluid {
   margin: 0 auto;
 }
 
-.right-header {
-  text-align: end;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: flex-end;
-}
-
-div.right-header.col-md-3 {
-  padding-right: 0;
-}
-
-.left-header,
-.right-header {
-  display: flex;
-  align-items: flex-end;
-  padding-bottom: 21px;
-}
-
 .right-header a:first-child {
-  font-size: 1.8rem;
-  font-weight: 600;
-  margin: 0 8px;
-  color: white;
+  font-size: 1.7rem;
   text-decoration: none;
-  text-transform: uppercase;
 }
 
 .right-header a:last-child {
-  display: inline-flex;
-  background: white;
   color: red;
   width: 135px;
   height: 26px;
-  flex-flow: row nowrap;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.8rem;
-  font-weight: 600;
+  font-size: 1.7rem;
   text-decoration: none;
-  text-transform: uppercase;
 }
 
 .header-bottom::before {
@@ -163,39 +135,36 @@ div.right-header.col-md-3 {
   background-color: #f72210;
   border-left: 12px solid white;
   border-top: 13px solid #f72210;
-  margin-right: -15px;
 }
 
-label {
-  background: url('https://g.newsweek.com/www/images/icon-search-glass.svg') center no-repeat;
+nav {
+  background-color: white;
+}
+
+.news-navbar li a {
+  font-size: 1.7rem;
+  color: black;
+  text-decoration: none;
+  font-weight: 800;
+}
+
+.news-navbar li a:hover {
+  color: red;
+}
+
+.header-nav .news-navbar li {
+  list-style: none;
+}
+
+.header-nav-search-inline label {
+  background: url(../pics/search.svg) center/contain no-repeat white;
   width: 20px;
   height: 20px;
   clip: auto;
-  font-size: 0;
-  position: absolute;
 }
 
-.list-inline > li {
-  line-height: 2;
-  margin: 0;
-  padding: 0;
-  border-left: 1px solid lightgray;
-}
-
-.list-inline > li:first-child,
-.list-inline > li:last-child {
-  border-left: none;
-}
-
-.list-inline li a {
-  font-size: 2rem;
-  color: black;
-  text-decoration: none;
-  font-weight: 900;
-}
-
-.list-inline li a:hover {
-  color: #f72210;
+input {
+  width: 60px;
 }
 
 main {
@@ -217,10 +186,6 @@ main.container-fluid {
   font-weight: 900;
   padding: 3px 8px;
   font-size: 1.4rem;
-}
-
-.col1 {
-  width: 25%;
 }
 
 div.thumbnail {

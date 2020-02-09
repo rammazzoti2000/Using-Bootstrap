@@ -24,35 +24,44 @@
   <body>
     <div class="container-fluid body p-0 m-0">
       <header class="container-fluid">
-        <div class="left-right-container row">
-          <div class="left-header col-md-3">
+        <div class="left-right-container d-flex">
+          <div class="left-header d-flex align-items-end col-md-3 pb-4">
             <date>Tue, Jan 28, 2020</date>
           </div>
           <div class="middle-header col-md-6">
             <a href="#"><img src="pics/newsweek_logo.svg" alt=""></a>
           </div>
-          <div class="right-header col-md-3">
-            <a href="#">Sign In</a>
-            <a href="#">Subscribe<span class="glyphicon glyphicon-menu-right"></span></a>
+          <div class="right-header d-flex flex-row flex-wrap justify-content-end text-align-end align-items-end col-md-3 pr-0 pb-4">
+            <a class="text-white font-weight-bolder text-uppercase text-white mr-2" href="#">Sign In</a>
+            <a class="d-none d-inline-flex flex-row flex-nowrap align-items-center justify-content-center font-weight-bolder text-uppercase bg-white" href="#">Subscribe&nbsp;<span class="fas fa-chevron-right"></span></a>
           </div>
         </div>
-        <nav class="header-bottom">
-        
-          <ul class="list-inline">
-            <li><a class="list-inline-item" href="#">U.S.</a></li>
-            <li><a class="list-inline-item" href="#">World</a></li>
-            <li><a class="list-inline-item" href="#">Business</a></li>
-            <li><a class="list-inline-item" href="#">Tech &amp; Science</a></li>
-            <li><a class="list-inline-item" href="#">Culture</a></li>
-            <li><a class="list-inline-item" href="#">Newsgeek</a></li>
-            <li><a class="list-inline-item" href="#">Sports</a></li>
-            <li><a class="list-inline-item" href="#">Health</a></li>
-            <li><a class="list-inline-item" href="#">The Debate</a></li>
-            <li><a class="list-inline-item" href="#">Vantage</a></li>
-            <li><a class="list-inline-item" href="#">Weather</a></li>
-          </ul>
-          
-        </nav>
+        <div class="header-bottom">
+          <nav class="header-nav pt-3 pb-3">
+            <div class="flex-col w-auto d-flex flex-row-reverse justify-content-between">
+              <form action="#" class="header-nav-search-form">
+                <div class="header-nav-search-inline d-flex justify-content-between">
+                  <input type="text" id="search-input" class="search-text border-0 outline-0" placeholder="Search">
+                  <label for="search-input" class="mb-0 mt-1"></label>
+                  <i></i>
+                </div>
+              </form>
+              <ul class="news-navbar d-flex justify-content-center align-content-between align-items-center flex-grow-1">
+                <li class="d-inline flex-grow-1 text-center border-right"><a href="#">U.S.</a></li>
+                <li class="d-inline flex-grow-1 text-center border-right"><a href="#">World</a></li>
+                <li class="d-inline flex-grow-1 text-center border-right"><a href="#">Business</a></li>
+                <li class="d-inline flex-grow-1 text-center border-right"><a href="#">Tech & Science</a></li>
+                <li class="d-inline flex-grow-1 text-center border-right"><a href="#">Culture</a></li>
+                <li class="d-inline flex-grow-1 text-center border-right"><a href="#">Newsgeek</a></li>
+                <li class="d-inline flex-grow-1 text-center border-right"><a href="#">Sports</a></li>
+                <li class="d-inline flex-grow-1 text-center border-right"><a href="#">Health</a></li>
+                <li class="d-inline flex-grow-1 text-center border-right"><a href="#">Opinion</a></li>
+                <li class="d-inline flex-grow-1 text-center border-right"><a href="#">Vantage</a></li>
+                <li class="d-inline flex-grow-1 text-center"><a href="#">Weather</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
       </header>
 
       <main class="container-fluid">
