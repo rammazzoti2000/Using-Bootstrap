@@ -34,7 +34,7 @@
     <a href="https://github.com/rammazzoti2000/Using-Bootstrap/issues"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://rawcdn.githack.com/rammazzoti2000/Using-Bootstrap/6d8a34acf2db5442b1c9b8e0798b559d1c582c06/index.html">View Demo</a>
+    <a href="https://rawcdn.githack.com/rammazzoti2000/Using-Bootstrap/855acf32f93752e4480ebc9a456e67a27df02eb1/index.html">View Demo</a>
     ·
     <a href="https://github.com/rammazzoti2000/Using-Bootstrap/issues">Report Bug</a>
     ·
@@ -76,14 +76,13 @@ This project was built using these technologies.
 <!-- LIVE VERSION -->
 ## Live version
 
-[You can see it here](https://rawcdn.githack.com/rammazzoti2000/Using-Bootstrap/6d8a34acf2db5442b1c9b8e0798b559d1c582c06/index.html)
+:point_right:  [You can see it here](https://rawcdn.githack.com/rammazzoti2000/Using-Bootstrap/855acf32f93752e4480ebc9a456e67a27df02eb1/index.html)
 
 <!-- CONTACT -->
 ## Contact
 
-Alexandru Bangau - twitter: [@alex_maxinova](https://twitter.com/alex_maxinova) - github: [@ramamzzoti2000](https://github.com/rammazzoti2000) - gmail: bangau.alexandru@gmail.com
+👤 Alexandru Bangau - twitter: [@alex_maxinova](https://twitter.com/alex_maxinova) - github: [@ramamzzoti2000](https://github.com/rammazzoti2000) - gmail: bangau.alexandru@gmail.com
 
-Project Link: [Using BootStrap](https://rawcdn.githack.com/rammazzoti2000/Using-Bootstrap/6d8a34acf2db5442b1c9b8e0798b559d1c582c06/index.html)
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements

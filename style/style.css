@@ -683,10 +683,6 @@ a .social-icon {
 }
 
 @media only screen and (max-width: 991px) {
-  .middle-header {
-    padding: 0 !important;
-  }
-
   main.container-fluid {
     width: 93%;
   }
@@ -729,17 +725,6 @@ a .social-icon {
   }
 }
 
-@media only screen and (min-width: 992px) {
-  .start-up-5 {
-    height: 298px;
-  }
-
-  body {
-    width: 95%;
-    margin: 0 auto !important;
-  }
-}
-
 @media screen and (min-width: 992px) {
   .subscribe-block {
     padding-top: 70px;
@@ -762,15 +747,16 @@ a .social-icon {
     padding-right: 30px;
   }
 
-  .middle-header img {
-    margin: auto;
-  }
-}
-
-@media only screen and (min-width: 768px) {
   .start-up-5 {
-    width: 48%;
-    max-width: 191px;
+    height: 298px;
+  }
+
+  body {
+    width: 95%;
+  }
+
+  .middle-header img {
+    margin: 0 auto;
   }
 }
 
@@ -794,13 +780,6 @@ a .social-icon {
 
   .fa-bars {
     font-size: 2rem;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .row-top img,
-  .row-bottom img {
-    height: auto !important;
   }
 }
 
