@@ -76,14 +76,13 @@ This project was built using these technologies.
 <!-- LIVE VERSION -->
 ## Live version
 
-:point_right: [You can see it here](https://rawcdn.githack.com/rammazzoti2000/Using-Bootstrap/855acf32f93752e4480ebc9a456e67a27df02eb1/index.html)
+:point_right:  [You can see it here](https://rawcdn.githack.com/rammazzoti2000/Using-Bootstrap/855acf32f93752e4480ebc9a456e67a27df02eb1/index.html)
 
 <!-- CONTACT -->
 ## Contact
 
 👤 Alexandru Bangau - twitter: [@alex_maxinova](https://twitter.com/alex_maxinova) - github: [@ramamzzoti2000](https://github.com/rammazzoti2000) - gmail: bangau.alexandru@gmail.com
 
-Project Link: [Using BootStrap](https://github.com/rammazzoti2000/Using-Bootstrap/tree/master)
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
