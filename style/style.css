@@ -77,7 +77,7 @@ header {
 
 .left-right-container {
   padding: 0 10px;
-  background-color: #FF0500;
+  background-color: #ff0500;
   color: white;
   font-size: 1.5rem;
 }
@@ -682,7 +682,6 @@ a .social-icon {
     padding-right: 30px;
   }
 }
-
 
 @media only screen and (max-width: 576px) {
   div.sub-container {
