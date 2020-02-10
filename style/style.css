@@ -191,7 +191,6 @@ nav {
 .news-navbar li a:hover {
   color: red;
   text-decoration: none;
-
 }
 
 .social li {
@@ -235,12 +234,8 @@ main.container-fluid {
 }
 
 div.thumbnail {
-  border: 0 none;
+  border: none;
   box-shadow: none;
-}
-
-h5.card-title {
-  margin-top: 0;
 }
 
 .latest-cards img {
@@ -250,9 +245,7 @@ h5.card-title {
 
 .middle-header img {
   object-position: 0 0;
-  width: 100%;
   height: 70px;
-  margin: 0;
 }
 
 div.opinion-cards img {
@@ -261,10 +254,6 @@ div.opinion-cards img {
 }
 
 div.card-body {
-  padding: 0;
-}
-
-section.container-fluid {
   padding: 0;
 }
 
@@ -279,29 +268,9 @@ section.container-fluid {
   padding-left: 15px;
 }
 
-.more-stories-cards .card,
-.opinion-cards .card,
-.latest-cards .card {
-  border: none;
-}
-
-.mores-stories div.row,
-.opinion-latest div.row {
-  margin-left: 0;
-  padding-left: 0;
-}
-
-.more-stories-cards div.row {
-  margin: 0;
-}
-
 /* MAGAZINE */
 .magazine-cover {
   margin-top: 50px;
-}
-
-.magazine-cover .img-wrapper {
-  position: relative;
 }
 
 .featured span img {
@@ -325,14 +294,10 @@ section.container-fluid {
 }
 
 .magazine-cover .img-wrapper .category {
-  position: absolute;
   bottom: 0;
   color: red;
   background: rgba(255, 255, 255, 0.7);
-  font-weight: bold;
-  padding: 3px;
   font-size: 15px;
-  cursor: pointer;
 }
 
 .magazine-cover span {
