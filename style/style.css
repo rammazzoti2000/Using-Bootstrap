@@ -489,6 +489,7 @@ div.card-body {
 }
 
 .newsletter {
+  max-width: 100%;
   width: 346px;
   margin: 25px auto;
 }
