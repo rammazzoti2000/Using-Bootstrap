@@ -34,7 +34,7 @@
     <a href="https://github.com/rammazzoti2000/Using-Bootstrap/issues"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://rawcdn.githack.com/rammazzoti2000/Using-Bootstrap/855acf32f93752e4480ebc9a456e67a27df02eb1/index.html">View Demo</a>
+    <a href="https://rawcdn.githack.com/rammazzoti2000/Using-Bootstrap/c9a21d59041c7c03272cff2e75cb794bd9d79a38/index.html">View Demo</a>
     ·
     <a href="https://github.com/rammazzoti2000/Using-Bootstrap/issues">Report Bug</a>
     ·
@@ -76,7 +76,7 @@ This project was built using these technologies.
 <!-- LIVE VERSION -->
 ## Live version
 
-:point_right:  [You can see it here](https://rawcdn.githack.com/rammazzoti2000/Using-Bootstrap/855acf32f93752e4480ebc9a456e67a27df02eb1/index.html)
+:point_right:  [You can see it here](https://rawcdn.githack.com/rammazzoti2000/Using-Bootstrap/c9a21d59041c7c03272cff2e75cb794bd9d79a38/index.html)
 
 <!-- CONTACT -->
 ## Contact
