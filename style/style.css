@@ -152,13 +152,13 @@ h3.global-title a {
 }
 
 .right-header a:first-child {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
 }
 
 .right-header a.top-sub-button {
   color: red;
   padding: 2px 4px;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
 }
 
 .fa-bars {
