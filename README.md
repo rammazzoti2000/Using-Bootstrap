@@ -76,7 +76,7 @@ This project was built using these technologies.
 <!-- LIVE VERSION -->
 ## Live version
 
-:point_right:  [You can see it here](https://rawcdn.githack.com/rammazzoti2000/Using-Bootstrap/c9a21d59041c7c03272cff2e75cb794bd9d79a38/index.html)
+:point_right:  [You can see it here](https://raw.githack.com/rammazzoti2000/Using-Bootstrap/master/index.html)
 
 <!-- CONTACT -->
 ## Contact
