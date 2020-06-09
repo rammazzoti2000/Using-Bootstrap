@@ -81,7 +81,7 @@ If you want to use it locally [download](https://github.com/rammazzoti2000/Using
 
 cd to the projects directory and open the index.html in your browser
 
-![screenshot](pics/bootstrap-mockup.png)
+![screenshot](pics/bootstrap-mockup1.png)
 
 <!-- LIVE VERSION -->
 ## Live version
