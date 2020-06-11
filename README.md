@@ -86,7 +86,7 @@ cd to the projects directory and open the index.html in your browser
 <!-- LIVE VERSION -->
 ## Live version
 
-:point_right:  [You can see it here](https://raw.githack.com/rammazzoti2000/Using-Bootstrap/master/index.html)
+:point_right:  [You can see it here](https://rammazzoti2000.github.io/Using-Bootstrap/)
 
 <!-- AUTOMATED TEST -->
 ## Automated Test
